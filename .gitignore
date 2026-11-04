@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Java compiled classes
+*.class
+
+# Testing & Streamlit caches
+.pytest_cache/
+.streamlit/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS / Temporary files
+Thumbs.db
+Desktop.ini
+ghtsp_events_*.json
+

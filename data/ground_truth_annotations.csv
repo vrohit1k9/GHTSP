@@ -1,0 +1,7 @@
+cluster_id,is_realistic_event,event_id
+cluster_vp_debate,1,event_vp_debate_2012
+cluster_biden_ryan,1,event_vp_debate_2012
+cluster_ncod,1,event_ncod_2012
+cluster_space_jump,1,event_stratos_2012
+cluster_noise_1,0,
+cluster_noise_2,0,

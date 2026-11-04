@@ -1,0 +1,665 @@
+breaking
+news
+breaking news
+cool
+yay
+great
+awesome
+national
+coming
+out
+day
+coming out
+coming out day
+national coming out day
+oct
+debate
+debates
+presidential debate
+vice presidential debate
+vp debate
+vp
+october
+november
+barack obama
+barack
+obama
+mitt romney
+mitt
+romney
+joe biden
+joe
+biden
+paul ryan
+paul
+ryan
+white house
+white
+house
+republican party
+democratic party
+republican
+democrat
+election
+united states
+united
+states
+foreign policy
+foreign
+policy
+economy
+jobs
+report
+jobs report
+taxes
+medicare
+syria
+middle east
+libya
+benghazi
+superstorm sandy
+hurricane sandy
+sandy
+apple
+iphone
+google
+android
+mars rover
+curiosity rover
+curiosity
+space jump
+felix baumgartner
+red bull stratos
+supreme court
+nobel peace prize
+european union
+lgbt
+equality
+equal rights
+human rights
+pride
+love
+support
+community
+celebrate
+world
+tonight
+tomorrow
+today
+live
+stream
+fact check
+fact
+check
+poll
+numbers
+gallup
+pew research
+swing state
+ohio
+florida
+virginia
+bipartisan
+congress
+senate
+governor
+campaign
+voter
+voters
+voter registration
+tax reform
+healthcare
+unemployment
+inflation
+stock market
+wall street
+nasdaq
+dow jones
+cnn
+bbc
+reuters
+fox news
+msnbc
+twitter
+facebook
+instagram
+youtube
+press conference
+breaking story
+official statement
+national park
+climate change
+clean energy
+oil prices
+gasoline
+federal reserve
+interest rate
+social security
+budget deficit
+national debt
+defense budget
+pentagon
+military
+veterans
+education
+student loans
+science
+technology
+innovation
+spacecraft
+nasa
+mars
+astronomy
+discovery
+weather
+storm
+forecast
+hurricane
+warning
+emergency
+evacuation
+relief
+first responders
+volunteer
+donation
+red cross
+fema
+disaster
+rescue
+power outage
+flood
+flooding
+rain
+damage
+recovery
+infrastructure
+transportation
+transit
+flight delays
+airport
+highways
+subway
+commute
+traffic
+accidents
+safety
+investigation
+police
+department
+security
+intelligence
+fbi
+border
+homeland security
+cybersecurity
+privacy
+data breach
+legislation
+bill
+vote
+ballot
+referendum
+rally
+speech
+interview
+town hall
+moderator
+martha raddatz
+jim lehrer
+candy crowley
+bob schieffer
+danville
+kentucky
+centre college
+hempstead
+new york
+hofstra university
+boca raton
+florida
+lynn university
+denver
+colorado
+university of denver
+applause
+interruptions
+arguments
+quotes
+zinger
+fact checking
+spin room
+undecided voters
+post debate poll
+instant reaction
+analysis
+pundits
+panel
+broadcast
+cable news
+trending topic
+viral
+retweet
+hashtag
+status
+update
+message
+opinion
+commentary
+statement
+discussion
+perspective
+conversation
+dialogue
+community support
+coming out story
+acceptance
+celebration
+diversity
+inclusion
+solidarity
+empowerment
+courage
+pride parade
+rainbow flag
+equal marriage
+marriage equality
+civil rights
+human dignity
+youth
+allies
+advocacy
+awareness
+campaigning
+grassroots
+movement
+milestone
+historic
+progress
+hope
+unity
+inspiration
+tribute
+memorial
+anniversary
+tradition
+annual
+global
+international
+nationwide
+local
+regional
+statewide
+metropolitan
+downtown
+campus
+student
+university
+college
+school
+teacher
+professor
+alumni
+education reform
+higher education
+tuition
+academic
+research
+study
+findings
+report card
+survey
+statistics
+demographics
+turnout
+absentee voting
+early voting
+polling place
+election day
+victory
+concession
+inauguration
+term
+presidency
+administration
+cabinet
+secretary
+ambassador
+diplomacy
+treaty
+accord
+peace
+conflict
+negotiation
+summit
+delegation
+envoy
+mission
+ceasefire
+sanctions
+resolution
+council
+assembly
+coalition
+alliance
+treaty organization
+nato
+united nations
+general assembly
+security council
+humanitarian
+refugees
+aid
+crisis
+escalation
+tensions
+provocation
+stability
+strategy
+tactics
+doctrine
+intelligence agency
+counterterrorism
+cyber warfare
+special forces
+defense
+security force
+law enforcement
+patrol
+surveillance
+monitoring
+response team
+incident
+hazard
+alert
+bulletin
+advisory
+warning system
+siren
+guidelines
+protocols
+readiness
+preparedness
+crisis management
+operational
+command center
+dispatch
+emergency services
+paramedics
+firefighters
+coast guard
+national guard
+mobilization
+logistics
+supply chain
+shelter
+provisions
+medical care
+triage
+casualty
+hospital
+field hospital
+patient
+doctor
+nurse
+medic
+epidemic
+outbreak
+vaccine
+transmission
+public health
+centers for disease control
+world health organization
+health agency
+quarantine
+containment
+prevention
+clinical trial
+pharmaceutical
+fda
+medical treatment
+recovery plan
+rehabilitation
+mental health
+wellbeing
+stress
+counseling
+support group
+hotline
+helpline
+resources
+assistance
+fundraising
+charity
+foundation
+nonprofit
+endowment
+grant
+subsidy
+welfare
+social safety net
+poverty
+homelessness
+housing
+urban development
+zoning
+public transit
+railway
+expressway
+bridge
+tunnel
+harbor
+seaport
+runway
+cargo
+freight
+shipment
+commerce
+trade
+export
+import
+tariff
+customs
+currency
+exchange rate
+gold
+crude oil
+natural gas
+renewable energy
+solar power
+wind energy
+hydroelectric
+nuclear energy
+grid
+blackout
+generator
+battery
+lithium
+semiconductor
+microchip
+hardware
+software
+operating system
+application
+algorithm
+artificial intelligence
+machine learning
+deep learning
+neural network
+natural language processing
+data mining
+information retrieval
+text segmentation
+event detection
+social media
+sentiment analysis
+topic modeling
+clustering
+knowledge graph
+wikipedia
+encyclopedia
+citation
+reference
+anchor text
+hyperlink
+page rank
+lexrank
+graph theory
+connected components
+nearest neighbors
+euclidean distance
+cosine similarity
+vector space
+tf idf
+tokenization
+stop words
+morphology
+stemming
+lemmatization
+regex
+parsing
+grammar
+syntax
+semantics
+corpus
+benchmark
+precision
+recall
+f1 score
+ablation
+baseline
+evaluation
+annotation
+ground truth
+experiment
+reproducibility
+optimization
+convergence
+eigenvector
+damping factor
+markov chain
+stochastic
+probability distribution
+binomial
+normal distribution
+standard deviation
+z score
+sigmoid
+logistic function
+exponential
+logarithm
+smoothness
+filter
+threshold
+heuristic
+rule engine
+preprocessing
+cleaning
+noise reduction
+normalization
+deduplication
+index
+inverted index
+postings list
+query
+retrieval
+ranking
+relevance
+scoring
+weighting
+burstiness
+novelty
+diversity
+redundancy
+summary
+extractive summarization
+abstractive summarization
+keyphrase
+entity
+named entity
+mentions
+hashtags
+user interaction
+engagement
+followers
+retweets
+frequency
+subwindow
+temporal analysis
+stream processing
+sliding window
+batch processing
+real time
+offline
+online
+latency
+throughput
+scalability
+modularity
+extensibility
+framework
+pipeline
+architecture
+system design
+interface
+dashboard
+visualization
+analytics
+metrics
+performance
+validation
+testing
+unit testing
+integration testing
+test suite
+pytest
+coverage
+assertion
+mock
+fixture
+parameterized
+cli
+gui
+swing
+java
+python
+streamlit
+pandas
+numpy
+scikit learn
+networkx
+nltk
+spacy
+jarvis patrick
+sedtwik
+ghtsp
+chennai
+chennai floods
+chennai rain
+rainfall
+flooding
+waterlogging
+rescue
+roads
+affected residents
+india
+australia
+virat kohli
+kohli
+cricket
+cricket match
+victory
+century
+apple
+iphone
+ai
+artificial intelligence
+camera
+product launch
+launch
+weather
+monsoon
+disaster
+emergency
+flood
+waterlog
+inundated
+ndrf

@@ -1,0 +1,188 @@
+===========================================================================
+        GHTSP PIPELINE: IDENTIFIED NEWSWORTHY EVENTS REPORT
+===========================================================================
+
+Total Processed Tweets : 2100
+Total 24h Time Windows : 2
+Total Events Detected  : 12
+
+***************************************************************************
+EVENT #1  |  Date Window: window_0
+Cluster ID       : cluster_1
+Newsworthiness μ : 0.327 (Threshold Ratio: 1.0)
+Associated Tweets: 352
+Top Segments     : debate, vp debate, vp, vice presidential debate, oct
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0371] @user_165: Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?
+      (Retweets: 13, Followers: 412)
+  [2] [LexRank: 0.0365] @user_323: The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 17, Followers: 301)
+  [3] [LexRank: 0.0359] @user_63: Watching @joebiden and @paulryan clash over foreign policy and medicare in Kentucky! #VpDebate #Oct12Debate http://t.co/deb891 Agree or disagree?
+      (Retweets: 8, Followers: 1181)
+
+***************************************************************************
+EVENT #2  |  Date Window: window_0
+Cluster ID       : cluster_2
+Newsworthiness μ : 0.2907 (Threshold Ratio: 1.12)
+Associated Tweets: 350
+Top Segments     : day, coming out, national, coming
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0549] @user_6: Celebrating #nationalcomingoutday with courage and community support! #pride Stand strong.
+      (Retweets: 5, Followers: 367)
+  [2] [LexRank: 0.0537] @user_76: Support equality and equal rights for everyone in our community! #nationalcomingoutday #pride Stand strong.
+      (Retweets: 7, Followers: 285)
+  [3] [LexRank: 0.0521] @user_53: Celebrating courage and equality today across the country! #nationalcomingoutday #love Stand strong.
+      (Retweets: 5, Followers: 345)
+
+***************************************************************************
+EVENT #3  |  Date Window: window_0
+Cluster ID       : cluster_3
+Newsworthiness μ : 0.1015 (Threshold Ratio: 3.22)
+Associated Tweets: 174
+Top Segments     : foreign policy, middle east
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0414] @user_204: Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate Agree or disagree?
+      (Retweets: 93, Followers: 939)
+  [2] [LexRank: 0.0382] @user_237: Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 10, Followers: 1509)
+  [3] [LexRank: 0.0381] @user_107: The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 52, Followers: 386)
+
+***************************************************************************
+EVENT #4  |  Date Window: window_0
+Cluster ID       : cluster_4
+Newsworthiness μ : 0.1823 (Threshold Ratio: 1.79)
+Associated Tweets: 144
+Top Segments     : breaking news, news, breaking
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0739] @user_268: Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Incredible courage!
+      (Retweets: 5, Followers: 332)
+  [2] [LexRank: 0.0728] @user_141: Honoring historic milestones in the civil rights movement today. #nationalcomingoutday #BreakingNews Stand strong.
+      (Retweets: 6, Followers: 258)
+  [3] [LexRank: 0.0683] @user_6: Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews
+      (Retweets: 10, Followers: 508)
+
+***************************************************************************
+EVENT #5  |  Date Window: window_0
+Cluster ID       : cluster_5
+Newsworthiness μ : 0.2259 (Threshold Ratio: 1.45)
+Associated Tweets: 155
+Top Segments     : joe biden, paul ryan, medicare
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0531] @user_165: Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?
+      (Retweets: 13, Followers: 412)
+  [2] [LexRank: 0.0492] @user_126: Analysis of the vice presidential debate: clash over medicare and budget deficit. #VpDebate Agree or disagree?
+      (Retweets: 9, Followers: 356)
+  [3] [LexRank: 0.0483] @user_343: Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate Must watch.
+      (Retweets: 8, Followers: 424)
+
+***************************************************************************
+EVENT #6  |  Date Window: window_0
+Cluster ID       : cluster_6
+Newsworthiness μ : 0.1675 (Threshold Ratio: 1.95)
+Associated Tweets: 182
+Top Segments     : equality, courage, pride, celebrating
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0868] @user_86: Celebrating #nationalcomingoutday with courage and community support! #pride Incredible courage!
+      (Retweets: 5, Followers: 599)
+  [2] [LexRank: 0.0778] @user_274: Celebrating courage and equality today across the country! #nationalcomingoutday #love Incredible courage!
+      (Retweets: 7, Followers: 221)
+  [3] [LexRank: 0.0665] @user_269: Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Stand strong.
+      (Retweets: 5, Followers: 447)
+
+***************************************************************************
+EVENT #7  |  Date Window: window_0
+Cluster ID       : cluster_7
+Newsworthiness μ : 0.1293 (Threshold Ratio: 2.53)
+Associated Tweets: 179
+Top Segments     : together, love, human rights, acceptance
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0852] @user_306: Youth and allies coming together for acceptance and hope! #nationalcomingoutday Incredible courage!
+      (Retweets: 7, Followers: 328)
+  [2] [LexRank: 0.0759] @user_268: Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Incredible courage!
+      (Retweets: 5, Followers: 332)
+  [3] [LexRank: 0.075] @user_155: Everyone deserves dignity, acceptance, and civil rights. Happy #nationalcomingoutday to all! Incredible courage!
+      (Retweets: 7, Followers: 223)
+
+***************************************************************************
+EVENT #8  |  Date Window: window_1
+Cluster ID       : cluster_1
+Newsworthiness μ : 0.2987 (Threshold Ratio: 1.31)
+Associated Tweets: 298
+Top Segments     : debate, vp, vp debate
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0362] @user_332: The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 24, Followers: 324)
+  [2] [LexRank: 0.0336] @user_279: Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?
+      (Retweets: 14, Followers: 484)
+  [3] [LexRank: 0.032] @user_170: Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate Agree or disagree?
+      (Retweets: 8, Followers: 2193)
+
+***************************************************************************
+EVENT #9  |  Date Window: window_1
+Cluster ID       : cluster_2
+Newsworthiness μ : 0.1664 (Threshold Ratio: 2.35)
+Associated Tweets: 174
+Top Segments     : oct, foreign policy, kentucky
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0473] @user_332: The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 24, Followers: 324)
+  [2] [LexRank: 0.0439] @user_368: Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate Agree or disagree?
+      (Retweets: 11, Followers: 1991)
+  [3] [LexRank: 0.0395] @user_286: Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews Agree or disagree?
+      (Retweets: 26, Followers: 879)
+
+***************************************************************************
+EVENT #10  |  Date Window: window_1
+Cluster ID       : cluster_3
+Newsworthiness μ : 0.3911 (Threshold Ratio: 1.0)
+Associated Tweets: 138
+Top Segments     : paul ryan, joe biden, economy, intense, jobs report, exchange
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.067] @user_235: Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate So intense!
+      (Retweets: 15, Followers: 1022)
+  [2] [LexRank: 0.0641] @user_99: Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Must watch.
+      (Retweets: 20, Followers: 647)
+  [3] [LexRank: 0.0477] @user_368: @paulryan highlights economy and national debt concerns during the debate. #Oct12Debate Must watch.
+      (Retweets: 52, Followers: 436)
+
+***************************************************************************
+EVENT #11  |  Date Window: window_1
+Cluster ID       : cluster_4
+Newsworthiness μ : 0.1061 (Threshold Ratio: 3.69)
+Associated Tweets: 78
+Top Segments     : clash, medicare
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.0847] @user_246: Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate
+      (Retweets: 10, Followers: 558)
+  [2] [LexRank: 0.0808] @user_371: Watching @joebiden and @paulryan clash over foreign policy and medicare in Kentucky! #VpDebate #Oct12Debate http://t.co/deb891
+      (Retweets: 26, Followers: 832)
+  [3] [LexRank: 0.0691] @user_180: Analysis of the vice presidential debate: clash over medicare and budget deficit. #VpDebate Must watch.
+      (Retweets: 12, Followers: 356)
+
+***************************************************************************
+EVENT #12  |  Date Window: window_1
+Cluster ID       : cluster_6
+Newsworthiness μ : 0.2179 (Threshold Ratio: 1.8)
+Associated Tweets: 62
+Top Segments     : breaking news, news, breaking
+---------------------------------------------------------------------------
+Top LexRank Extractive Summary Tweets:
+  [1] [LexRank: 0.1196] @user_371: Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews
+      (Retweets: 13, Followers: 1858)
+  [2] [LexRank: 0.1062] @user_93: The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews
+      (Retweets: 12, Followers: 437)
+  [3] [LexRank: 0.0164] @user_353: Felix Baumgartner preparing for the historic supersonic space jump with Red Bull Stratos! #BreakingNews
+      (Retweets: 2, Followers: 671)
+

@@ -1,0 +1,12 @@
+id,user,text,timestamp,retweet_count,follower_count
+1,cricket_fan1,What a sensational victory! India defeated Australia in an exciting cricket match! #INDvsAUS #Cricket #IndiaWins,2026-10-12 10:00:00,45,1200
+2,kohli_stats,Virat Kohli scores a masterclass century under pressure against Australia! Unstoppable batting masterclass. #INDvsAUS #Cricket,2026-10-12 10:05:00,120,4500
+3,sports_desk,India secured a historic victory over Australia in an exciting cricket match tonight. #Cricket #IndiaWins,2026-10-12 10:10:00,88,8900
+4,stadium_live,Fans celebrated the victory across the country after Kohli's match-winning century against Australia! #INDvsAUS #IndiaWins,2026-10-12 10:15:00,62,2300
+5,tech_insider,Apple officially announced a new iPhone featuring AI-powered capabilities and camera improvements! #AppleEvent #iPhoneLaunch #AI,2026-10-12 11:00:00,95,15000
+6,gadget_reviews,The camera improvements and AI launch features on the new iPhone are unbelievable! #AppleEvent #iPhoneLaunch,2026-10-12 11:05:00,54,7800
+7,silicon_beat,Apple iPhone launch event highlights next-generation AI innovations and camera upgrades. #iPhoneLaunch #AI,2026-10-12 11:10:00,110,22000
+8,future_tech,Generating huge excitement among technology enthusiasts following Apple's AI and new iPhone launch! #AppleEvent #AI,2026-10-12 11:15:00,73,6100
+9,weather_chennai,Heavy rainfall caused severe flooding and waterlogging across major roads in Chennai. Stay safe indoors! #ChennaiFloods #ChennaiRain,2026-10-12 12:00:00,140,9400
+10,city_update,Inundated roads and severe flooding reported in several Chennai areas after relentless rainfall. #ChennaiRain #ChennaiFloods,2026-10-12 12:05:00,82,3500
+11,rescue_network,NDRF and rescue teams deployed to assist affected residents trapped by flooding across Chennai roads. #ChennaiFloods #ChennaiRain,2026-10-12 12:10:00,195,12500

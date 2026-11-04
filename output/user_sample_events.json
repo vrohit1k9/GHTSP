@@ -1,0 +1,201 @@
+[
+  {
+    "index": 1,
+    "cluster_id": "cluster_1_new",
+    "event_title": "Fans & Film",
+    "input_tweets": "2-100",
+    "extracted_keywords": [
+      "Fans",
+      "Film",
+      "Game",
+      "Gaming",
+      "People"
+    ],
+    "related_hashtags": [
+      "#DeskSetup",
+      "#Trending",
+      "#Tennis",
+      "#FinalSet"
+    ],
+    "event_summary": "PEOPLE ARE SHARING THEIR MOST CHAOTIC DESK SETUPS \ud83d\udda5\ufe0f DeskSetup Trending. THE TENNIS FINAL GOES TO A DECIDING SET \ud83c\udfbe Tennis FinalSet.",
+    "top_segments": [
+      "new",
+      "fans",
+      "first",
+      "team",
+      "film",
+      "game",
+      "gaming",
+      "people",
+      "final",
+      "upcoming",
+      "tech",
+      "trending",
+      "space",
+      "policy",
+      "sharing",
+      "debate",
+      "update",
+      "day",
+      "set",
+      "challenge",
+      "developers",
+      "world",
+      "internet",
+      "photo",
+      "dev",
+      "source",
+      "coders",
+      "open"
+    ],
+    "newsworthiness_mu": 0.3098,
+    "tweet_count": 67,
+    "summary_tweets": [
+      {
+        "id": "tweet_19",
+        "user": "TeamUpdates",
+        "text": "THE TEAM ANNOUNCES ITS SQUAD FOR THE UPCOMING TOUR \ud83d\udce3 @TeamUpdates #SquadAnnouncement #Sports",
+        "timestamp": "2026-10-29 04:19:00",
+        "retweet_count": 1,
+        "follower_count": 730,
+        "lexrank_score": 0.0389
+      },
+      {
+        "id": "tweet_48",
+        "user": "TrendDiary",
+        "text": "THE NEW AESTHETIC HAS A NAME AND EVERYONE HAS AN OPINION \u2728 @TrendDiary #Aesthetic #InternetCulture",
+        "timestamp": "2026-10-29 11:16:00",
+        "retweet_count": 4,
+        "follower_count": 245,
+        "lexrank_score": 0.0335
+      },
+      {
+        "id": "tweet_12",
+        "user": "CricketCentral",
+        "text": "A LAST-OVER THRILLER HAS FANS ON THE EDGE OF THEIR SEATS \ud83c\udfcf @CricketCentral #Cricket #LastOver",
+        "timestamp": "2026-10-29 02:38:00",
+        "retweet_count": 2,
+        "follower_count": 485,
+        "lexrank_score": 0.029
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "cluster_id": "cluster_2_music",
+    "event_title": "Music & Local",
+    "input_tweets": "7-97",
+    "extracted_keywords": [
+      "Music",
+      "Local",
+      "Community",
+      "Concert",
+      "Night"
+    ],
+    "related_hashtags": [
+      "#LocalBusiness",
+      "#Community",
+      "#BeachCleanup",
+      "#PlasticFree"
+    ],
+    "event_summary": "A COMMUNITY MARKET CONNECTS LOCAL MAKERS WITH NEW CUSTOMERS \ud83e\uddfa LocalBusiness Community. COMMUNITY GROUPS ORGANISE A BEACH CLEAN-UP THIS WEEKEND \ud83c\udfd6\ufe0f BeachCleanup PlasticFree.",
+    "top_segments": [
+      "music",
+      "local",
+      "community",
+      "concert",
+      "night",
+      "announces"
+    ],
+    "newsworthiness_mu": 0.156,
+    "tweet_count": 22,
+    "summary_tweets": [
+      {
+        "id": "tweet_19",
+        "user": "TeamUpdates",
+        "text": "THE TEAM ANNOUNCES ITS SQUAD FOR THE UPCOMING TOUR \ud83d\udce3 @TeamUpdates #SquadAnnouncement #Sports",
+        "timestamp": "2026-10-29 04:19:00",
+        "retweet_count": 1,
+        "follower_count": 730,
+        "lexrank_score": 0.1184
+      },
+      {
+        "id": "tweet_82",
+        "user": "IndieScene",
+        "text": "THE INDIE BAND ANNOUNCES ITS FIRST NATIONAL TOUR \ud83c\udfb8 @IndieScene #IndieMusic #TourAnnouncement",
+        "timestamp": "2026-10-29 19:26:00",
+        "retweet_count": 17,
+        "follower_count": 1435,
+        "lexrank_score": 0.0722
+      },
+      {
+        "id": "tweet_66",
+        "user": "CleanEnergyNow",
+        "text": "SOLAR PANELS POWER A NEW COMMUNITY CENTRE \u2600\ufe0f @CleanEnergyNow #SolarPower #Renewables",
+        "timestamp": "2026-10-29 15:36:00",
+        "retweet_count": 5,
+        "follower_count": 875,
+        "lexrank_score": 0.0704
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "cluster_id": "cluster_3_share",
+    "event_title": "Share & Students",
+    "input_tweets": "1-90",
+    "extracted_keywords": [
+      "Share",
+      "Students",
+      "Launches",
+      "Research",
+      "Climate"
+    ],
+    "related_hashtags": [
+      "#FinancialLiteracy",
+      "#Students",
+      "#DigitalLearning",
+      "#Library"
+    ],
+    "event_summary": "FINANCIAL LITERACY WORKSHOPS HELP STUDENTS LEARN TO BUDGET \ud83d\udcb0 FinancialLiteracy Students. LIBRARY LAUNCHES A DIGITAL LEARNING CORNER FOR STUDENTS \ud83d\udcda DigitalLearning Library.",
+    "top_segments": [
+      "share",
+      "students",
+      "launches",
+      "research",
+      "climate",
+      "innovation"
+    ],
+    "newsworthiness_mu": 0.1511,
+    "tweet_count": 16,
+    "summary_tweets": [
+      {
+        "id": "tweet_71",
+        "user": "CampusNews",
+        "text": "STUDENTS BUILD A ROBOT FOR THE REGIONAL SCIENCE FAIR \ud83e\udd16 @CampusNews #Robotics #StudentProjects",
+        "timestamp": "2026-10-29 16:48:00",
+        "retweet_count": 15,
+        "follower_count": 1050,
+        "lexrank_score": 0.1037
+      },
+      {
+        "id": "tweet_51",
+        "user": "StartupWire",
+        "text": "STARTUPS SHOWCASE NEW IDEAS AT THE CITY INNOVATION FAIR \ud83d\udca1 @StartupWire #Startups #Innovation",
+        "timestamp": "2026-10-29 12:00:00",
+        "retweet_count": 0,
+        "follower_count": 350,
+        "lexrank_score": 0.0957
+      },
+      {
+        "id": "tweet_73",
+        "user": "ReadAndLearn",
+        "text": "LIBRARY LAUNCHES A DIGITAL LEARNING CORNER FOR STUDENTS \ud83d\udcda @ReadAndLearn #DigitalLearning #Library",
+        "timestamp": "2026-10-29 17:16:00",
+        "retweet_count": 4,
+        "follower_count": 1120,
+        "lexrank_score": 0.0902
+      }
+    ]
+  }
+]

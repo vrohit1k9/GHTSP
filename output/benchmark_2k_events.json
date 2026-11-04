@@ -1,0 +1,352 @@
+[
+  {
+    "index": 1,
+    "cluster_id": "cluster_1_day",
+    "event_title": "Election Day",
+    "input_tweets": "100015-101996",
+    "extracted_keywords": [
+      "Election Day",
+      "Election",
+      "Polls"
+    ],
+    "related_hashtags": [
+      "#Football",
+      "#MatchDay",
+      "#ElectionDay",
+      "#Vote2026"
+    ],
+    "event_summary": "Fans celebrate stunning stadium victory in the league championship Football MatchDay. Voter turnout reaches record numbers across key election districts ElectionDay Vote2026.",
+    "top_segments": [
+      "day",
+      "election day",
+      "election",
+      "polls"
+    ],
+    "newsworthiness_mu": 0.1578,
+    "tweet_count": 235,
+    "summary_tweets": [
+      {
+        "id": "tweet_100134",
+        "user": "user_12",
+        "text": "VOTERS HEAD TO THE POLLS IN A CLOSELY WATCHED ELECTION #ElectionDay #Democracy @ElectionMonitor",
+        "timestamp": "2026-10-29 01:36:28",
+        "retweet_count": 8,
+        "follower_count": 810,
+        "lexrank_score": 0.423
+      },
+      {
+        "id": "tweet_100433",
+        "user": "user_154",
+        "text": "Polls remain open as citizens cast ballots in national election #Democracy #ElectionDay",
+        "timestamp": "2026-10-29 05:11:45",
+        "retweet_count": 8,
+        "follower_count": 2338,
+        "lexrank_score": 0.2452
+      },
+      {
+        "id": "tweet_100058",
+        "user": "user_127",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 00:41:45",
+        "retweet_count": 0,
+        "follower_count": 2075,
+        "lexrank_score": 0.2013
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "cluster_id": "cluster_2_climate",
+    "event_title": "Climate & Summit",
+    "input_tweets": "100012-101977",
+    "extracted_keywords": [
+      "Climate",
+      "Summit",
+      "Talks",
+      "Global"
+    ],
+    "related_hashtags": [
+      "#ClimateTalks",
+      "#Sustainability",
+      "#GlobalSummit",
+      "#ClimateAction"
+    ],
+    "event_summary": "New climate targets announced at global summit by world leaders ClimateTalks Sustainability. Crucial discussions on emissions and carbon reduction underway GlobalSummit ClimateAction.",
+    "top_segments": [
+      "climate",
+      "summit",
+      "talks",
+      "global"
+    ],
+    "newsworthiness_mu": 0.167,
+    "tweet_count": 200,
+    "summary_tweets": [
+      {
+        "id": "tweet_101849",
+        "user": "user_155",
+        "text": "New climate targets announced at global summit by world leaders #ClimateTalks #Sustainability",
+        "timestamp": "2026-10-29 22:11:16",
+        "retweet_count": 5,
+        "follower_count": 921,
+        "lexrank_score": 0.359
+      },
+      {
+        "id": "tweet_101665",
+        "user": "user_233",
+        "text": "GLOBAL LEADERS MEET FOR CLIMATE TALKS #ClimateTalks #GlobalSummit @WorldBriefing",
+        "timestamp": "2026-10-29 19:58:48",
+        "retweet_count": 4,
+        "follower_count": 1630,
+        "lexrank_score": 0.2901
+      },
+      {
+        "id": "tweet_100211",
+        "user": "user_210",
+        "text": "Renewable energy commitments take center stage at climate talks #ClimateTalks #Renewables",
+        "timestamp": "2026-10-29 02:31:55",
+        "retweet_count": 1,
+        "follower_count": 1134,
+        "lexrank_score": 0.1995
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "cluster_id": "cluster_3_cricket",
+    "event_title": "Cricket & Fans",
+    "input_tweets": "100001-101998",
+    "extracted_keywords": [
+      "Cricket",
+      "Fans",
+      "Thriller",
+      "Victory",
+      "Finish"
+    ],
+    "related_hashtags": [
+      "#Cricket",
+      "#LastOver",
+      "#Football",
+      "#LastMinuteWinner"
+    ],
+    "event_summary": "A LAST-OVER THRILLER HAS FANS ON THE EDGE OF THEIR SEATS Cricket LastOver. WHAT A COMEBACK! THE FINAL MINUTES CHANGED EVERYTHING Football LastMinuteWinner.",
+    "top_segments": [
+      "cricket",
+      "last",
+      "fans",
+      "thriller",
+      "victory",
+      "finish"
+    ],
+    "newsworthiness_mu": 0.0723,
+    "tweet_count": 400,
+    "summary_tweets": [
+      {
+        "id": "tweet_101172",
+        "user": "user_179",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 14:03:50",
+        "retweet_count": 3,
+        "follower_count": 1423,
+        "lexrank_score": 0.1786
+      },
+      {
+        "id": "tweet_100553",
+        "user": "user_227",
+        "text": "A LAST-OVER THRILLER HAS FANS ON THE EDGE OF THEIR SEATS #Cricket #LastOver @CricketCentral",
+        "timestamp": "2026-10-29 06:38:09",
+        "retweet_count": 14,
+        "follower_count": 903,
+        "lexrank_score": 0.1477
+      },
+      {
+        "id": "tweet_101818",
+        "user": "user_214",
+        "text": "THE FINAL CIRCLE DELIVERS A WILD ESPORTS FINISH #Esports #FinalCircle @EsportsArena",
+        "timestamp": "2026-10-29 21:48:57",
+        "retweet_count": 12,
+        "follower_count": 1947,
+        "lexrank_score": 0.1116
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "cluster_id": "cluster_4_tech",
+    "event_title": "Tech & Robotics",
+    "input_tweets": "100002-101997",
+    "extracted_keywords": [
+      "Tech",
+      "Robotics",
+      "Meme",
+      "Viral",
+      "Students"
+    ],
+    "related_hashtags": [
+      "#ViralVideo",
+      "#TrendingNow",
+      "#OpenSourceAI",
+      "#Technology"
+    ],
+    "event_summary": "Viral comedy video takes over timelines across every platform ViralVideo TrendingNow. Tech community excited by open-source AI release today OpenSourceAI Technology.",
+    "top_segments": [
+      "tech",
+      "robotics",
+      "meme",
+      "ai",
+      "new",
+      "viral",
+      "students",
+      "innovation",
+      "tasks",
+      "demonstrate",
+      "challenge"
+    ],
+    "newsworthiness_mu": 0.0618,
+    "tweet_count": 669,
+    "summary_tweets": [
+      {
+        "id": "tweet_100915",
+        "user": "user_145",
+        "text": "STEM students demonstrate automated navigation robot to judges #STEM #RoboticsChallenge",
+        "timestamp": "2026-10-29 10:58:48",
+        "retweet_count": 8,
+        "follower_count": 781,
+        "lexrank_score": 0.2052
+      },
+      {
+        "id": "tweet_101234",
+        "user": "user_233",
+        "text": "Young inventors display futuristic robotics prototypes at science expo #StudentProjects #TechFair",
+        "timestamp": "2026-10-29 14:48:28",
+        "retweet_count": 11,
+        "follower_count": 2292,
+        "lexrank_score": 0.107
+      },
+      {
+        "id": "tweet_100013",
+        "user": "user_213",
+        "text": "Internet creators craft funniest remixes of the week #ViralMeme #InternetHumor",
+        "timestamp": "2026-10-29 00:09:21",
+        "retweet_count": 0,
+        "follower_count": 2310,
+        "lexrank_score": 0.107
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "cluster_id": "cluster_5_football",
+    "event_title": "Football & Final",
+    "input_tweets": "100001-101998",
+    "extracted_keywords": [
+      "Football",
+      "Final",
+      "Stadium",
+      "Championship",
+      "Match"
+    ],
+    "related_hashtags": [
+      "#Football",
+      "#LastMinuteWinner",
+      "#Cricket",
+      "#MatchWinner"
+    ],
+    "event_summary": "WHAT A COMEBACK! THE FINAL MINUTES CHANGED EVERYTHING Football LastMinuteWinner. Captain leads from the front with a match-winning half-century Cricket MatchWinner.",
+    "top_segments": [
+      "football",
+      "final",
+      "stadium",
+      "championship",
+      "match",
+      "winner",
+      "champions"
+    ],
+    "newsworthiness_mu": 0.0665,
+    "tweet_count": 360,
+    "summary_tweets": [
+      {
+        "id": "tweet_100475",
+        "user": "user_178",
+        "text": "The stadium erupts as the final whistle blows on championship night #Football #Champions",
+        "timestamp": "2026-10-29 05:42:00",
+        "retweet_count": 13,
+        "follower_count": 1248,
+        "lexrank_score": 0.1806
+      },
+      {
+        "id": "tweet_101172",
+        "user": "user_179",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 14:03:50",
+        "retweet_count": 3,
+        "follower_count": 1423,
+        "lexrank_score": 0.1689
+      },
+      {
+        "id": "tweet_100610",
+        "user": "user_218",
+        "text": "WHAT A COMEBACK! THE FINAL MINUTES CHANGED EVERYTHING #Football #LastMinuteWinner @MatchDayBuzz",
+        "timestamp": "2026-10-29 07:19:12",
+        "retweet_count": 14,
+        "follower_count": 822,
+        "lexrank_score": 0.1561
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "cluster_id": "cluster_6_esports",
+    "event_title": "Esports & Gaming",
+    "input_tweets": "100000-101998",
+    "extracted_keywords": [
+      "Esports",
+      "Gaming",
+      "Record",
+      "World"
+    ],
+    "related_hashtags": [
+      "#ElectionDay",
+      "#Vote2026",
+      "#Esports",
+      "#GamingCommunity"
+    ],
+    "event_summary": "Voter turnout reaches record numbers across key election districts ElectionDay Vote2026. Record viewership logged during thrilling world esports finals Esports GamingCommunity.",
+    "top_segments": [
+      "esports",
+      "gaming",
+      "record",
+      "world"
+    ],
+    "newsworthiness_mu": 0.043,
+    "tweet_count": 320,
+    "summary_tweets": [
+      {
+        "id": "tweet_101885",
+        "user": "user_127",
+        "text": "Voter turnout reaches record numbers across key election districts #ElectionDay #Vote2026",
+        "timestamp": "2026-10-29 22:37:12",
+        "retweet_count": 5,
+        "follower_count": 325,
+        "lexrank_score": 0.125
+      },
+      {
+        "id": "tweet_100521",
+        "user": "user_47",
+        "text": "Record viewership logged during thrilling world esports finals #Esports #GamingCommunity",
+        "timestamp": "2026-10-29 06:15:07",
+        "retweet_count": 7,
+        "follower_count": 1214,
+        "lexrank_score": 0.125
+      },
+      {
+        "id": "tweet_101749",
+        "user": "user_86",
+        "text": "New climate targets announced at global summit by world leaders #ClimateTalks #Sustainability",
+        "timestamp": "2026-10-29 20:59:16",
+        "retweet_count": 14,
+        "follower_count": 1327,
+        "lexrank_score": 0.125
+      }
+    ]
+  }
+]

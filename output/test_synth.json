@@ -1,0 +1,646 @@
+[
+  {
+    "index": 1,
+    "cluster_id": "cluster_1_debate",
+    "event_title": "Debate & Vp Debate",
+    "input_tweets": "100000-100649",
+    "extracted_keywords": [
+      "Debate",
+      "Vp Debate",
+      "Vice Presidential Debate",
+      "Oct"
+    ],
+    "related_hashtags": [
+      "#Oct12Debate",
+      "#VpDebate",
+      "#BreakingNews"
+    ],
+    "event_summary": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. Oct12Debate. Both candidates arguing passionately about foreign policy and democratic party platform. Oct12Debate.",
+    "top_segments": [
+      "debate",
+      "vp debate",
+      "vp",
+      "vice presidential debate",
+      "oct"
+    ],
+    "newsworthiness_mu": 0.327,
+    "tweet_count": 352,
+    "summary_tweets": [
+      {
+        "id": "tweet_100064",
+        "user": "user_136",
+        "text": "Watching @joebiden and @paulryan clash over foreign policy and medicare in Kentucky! #VpDebate #Oct12Debate http://t.co/deb891 Agree or disagree?",
+        "timestamp": "2012-10-11 18:38:29",
+        "retweet_count": 12,
+        "follower_count": 7991,
+        "lexrank_score": 0.0349
+      },
+      {
+        "id": "tweet_100131",
+        "user": "user_42",
+        "text": "The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?",
+        "timestamp": "2012-10-11 12:14:46",
+        "retweet_count": 20,
+        "follower_count": 590,
+        "lexrank_score": 0.0346
+      },
+      {
+        "id": "tweet_100375",
+        "user": "user_165",
+        "text": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?",
+        "timestamp": "2012-10-11 16:15:44",
+        "retweet_count": 13,
+        "follower_count": 412,
+        "lexrank_score": 0.0334
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "cluster_id": "cluster_2_day",
+    "event_title": "Coming & Coming Out",
+    "input_tweets": "100650-100999",
+    "extracted_keywords": [
+      "Coming",
+      "Coming Out",
+      "National"
+    ],
+    "related_hashtags": [
+      "#nationalcomingoutday",
+      "#love",
+      "#humanrights",
+      "#BreakingNews"
+    ],
+    "event_summary": "Celebrating courage and equality today across the country! nationalcomingoutday love Stand strong. Standing together for diversity, inclusion, and love is love! nationalcomingoutday humanrights Incredible courage.",
+    "top_segments": [
+      "day",
+      "coming",
+      "coming out",
+      "national"
+    ],
+    "newsworthiness_mu": 0.2907,
+    "tweet_count": 350,
+    "summary_tweets": [
+      {
+        "id": "tweet_100789",
+        "user": "user_224",
+        "text": "Celebrating #nationalcomingoutday with courage and community support! #pride Stand strong.",
+        "timestamp": "2012-10-11 08:51:41",
+        "retweet_count": 12,
+        "follower_count": 303,
+        "lexrank_score": 0.0521
+      },
+      {
+        "id": "tweet_100965",
+        "user": "user_141",
+        "text": "Support equality and equal rights for everyone in our community! #nationalcomingoutday #pride Incredible courage!",
+        "timestamp": "2012-10-11 17:16:30",
+        "retweet_count": 9,
+        "follower_count": 1188,
+        "lexrank_score": 0.051
+      },
+      {
+        "id": "tweet_100715",
+        "user": "user_125",
+        "text": "Celebrating courage and equality today across the country! #nationalcomingoutday #love Stand strong.",
+        "timestamp": "2012-10-11 14:37:15",
+        "retweet_count": 5,
+        "follower_count": 426,
+        "lexrank_score": 0.0495
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "cluster_id": "cluster_3_foreign_policy",
+    "event_title": "Foreign Policy & Middle East",
+    "input_tweets": "100003-100649",
+    "extracted_keywords": [
+      "Foreign Policy",
+      "Middle East"
+    ],
+    "related_hashtags": [
+      "#Oct12Debate",
+      "#VpDebate",
+      "#BreakingNews"
+    ],
+    "event_summary": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. Oct12Debate. The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! VpDebate BreakingNews.",
+    "top_segments": [
+      "foreign policy",
+      "middle east"
+    ],
+    "newsworthiness_mu": 0.1015,
+    "tweet_count": 174,
+    "summary_tweets": [
+      {
+        "id": "tweet_100413",
+        "user": "user_204",
+        "text": "Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate Agree or disagree?",
+        "timestamp": "2012-10-11 18:57:19",
+        "retweet_count": 93,
+        "follower_count": 939,
+        "lexrank_score": 0.0413
+      },
+      {
+        "id": "tweet_100084",
+        "user": "user_42",
+        "text": "Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews Agree or disagree?",
+        "timestamp": "2012-10-11 20:54:39",
+        "retweet_count": 8,
+        "follower_count": 436,
+        "lexrank_score": 0.0381
+      },
+      {
+        "id": "tweet_100395",
+        "user": "user_107",
+        "text": "The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?",
+        "timestamp": "2012-10-11 23:06:30",
+        "retweet_count": 52,
+        "follower_count": 386,
+        "lexrank_score": 0.0381
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "cluster_id": "cluster_4_news",
+    "event_title": "News & Breaking News",
+    "input_tweets": "100003-101093",
+    "extracted_keywords": [
+      "News",
+      "Breaking News",
+      "Breaking"
+    ],
+    "related_hashtags": [
+      "#VpDebate",
+      "#BreakingNews",
+      "#nationalcomingoutday"
+    ],
+    "event_summary": "The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! VpDebate BreakingNews. Honoring historic milestones in the civil rights movement today. nationalcomingoutday BreakingNews.",
+    "top_segments": [
+      "news",
+      "breaking news",
+      "breaking"
+    ],
+    "newsworthiness_mu": 0.1823,
+    "tweet_count": 144,
+    "summary_tweets": [
+      {
+        "id": "tweet_100920",
+        "user": "user_268",
+        "text": "Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Incredible courage!",
+        "timestamp": "2012-10-11 11:43:57",
+        "retweet_count": 5,
+        "follower_count": 332,
+        "lexrank_score": 0.0739
+      },
+      {
+        "id": "tweet_100964",
+        "user": "user_147",
+        "text": "Honoring historic milestones in the civil rights movement today. #nationalcomingoutday #BreakingNews Stand strong.",
+        "timestamp": "2012-10-11 20:20:48",
+        "retweet_count": 6,
+        "follower_count": 415,
+        "lexrank_score": 0.0728
+      },
+      {
+        "id": "tweet_100333",
+        "user": "user_20",
+        "text": "Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews",
+        "timestamp": "2012-10-11 20:38:23",
+        "retweet_count": 29,
+        "follower_count": 2455,
+        "lexrank_score": 0.0683
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "cluster_id": "cluster_5_joe_biden",
+    "event_title": "Joe Biden & Paul Ryan",
+    "input_tweets": "100000-100645",
+    "extracted_keywords": [
+      "Joe Biden",
+      "Paul Ryan",
+      "Medicare"
+    ],
+    "related_hashtags": [
+      "#Oct12Debate",
+      "#VpDebate"
+    ],
+    "event_summary": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. Oct12Debate. Analysis of the vice presidential debate: clash over medicare and budget deficit. VpDebate Must watch.",
+    "top_segments": [
+      "joe biden",
+      "paul ryan",
+      "medicare"
+    ],
+    "newsworthiness_mu": 0.2259,
+    "tweet_count": 155,
+    "summary_tweets": [
+      {
+        "id": "tweet_100375",
+        "user": "user_165",
+        "text": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?",
+        "timestamp": "2012-10-11 16:15:44",
+        "retweet_count": 13,
+        "follower_count": 412,
+        "lexrank_score": 0.0527
+      },
+      {
+        "id": "tweet_100104",
+        "user": "user_236",
+        "text": "Analysis of the vice presidential debate: clash over medicare and budget deficit. #VpDebate Must watch.",
+        "timestamp": "2012-10-11 22:17:33",
+        "retweet_count": 10,
+        "follower_count": 1039,
+        "lexrank_score": 0.0488
+      },
+      {
+        "id": "tweet_100348",
+        "user": "user_289",
+        "text": "Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate Must watch.",
+        "timestamp": "2012-10-11 21:03:14",
+        "retweet_count": 10,
+        "follower_count": 511,
+        "lexrank_score": 0.0483
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "cluster_id": "cluster_6_equality",
+    "event_title": "Equality & Courage",
+    "input_tweets": "100650-100999",
+    "extracted_keywords": [
+      "Equality",
+      "Courage",
+      "Pride",
+      "Celebrating"
+    ],
+    "related_hashtags": [
+      "#nationalcomingoutday",
+      "#pride",
+      "#love",
+      "#humanrights"
+    ],
+    "event_summary": "Celebrating nationalcomingoutday with courage and community support! pride. Celebrating courage and equality today across the country! nationalcomingoutday love Stand strong.",
+    "top_segments": [
+      "equality",
+      "courage",
+      "pride",
+      "celebrating"
+    ],
+    "newsworthiness_mu": 0.1675,
+    "tweet_count": 182,
+    "summary_tweets": [
+      {
+        "id": "tweet_100778",
+        "user": "user_86",
+        "text": "Celebrating #nationalcomingoutday with courage and community support! #pride Incredible courage!",
+        "timestamp": "2012-10-11 18:14:20",
+        "retweet_count": 5,
+        "follower_count": 599,
+        "lexrank_score": 0.0807
+      },
+      {
+        "id": "tweet_100760",
+        "user": "user_162",
+        "text": "Celebrating courage and equality today across the country! #nationalcomingoutday #love Incredible courage!",
+        "timestamp": "2012-10-11 12:29:37",
+        "retweet_count": 6,
+        "follower_count": 865,
+        "lexrank_score": 0.0735
+      },
+      {
+        "id": "tweet_100688",
+        "user": "user_73",
+        "text": "Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Stand strong.",
+        "timestamp": "2012-10-11 09:38:30",
+        "retweet_count": 35,
+        "follower_count": 278,
+        "lexrank_score": 0.0611
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "cluster_id": "cluster_7_together",
+    "event_title": "Together & Love",
+    "input_tweets": "100651-100999",
+    "extracted_keywords": [
+      "Together",
+      "Love",
+      "Human Rights",
+      "Acceptance"
+    ],
+    "related_hashtags": [
+      "#nationalcomingoutday",
+      "#love",
+      "#humanrights",
+      "#BreakingNews"
+    ],
+    "event_summary": "Celebrating courage and equality today across the country! nationalcomingoutday love Stand strong. Standing together for diversity, inclusion, and love is love! nationalcomingoutday humanrights Incredible courage.",
+    "top_segments": [
+      "together",
+      "love",
+      "human rights",
+      "acceptance"
+    ],
+    "newsworthiness_mu": 0.1293,
+    "tweet_count": 179,
+    "summary_tweets": [
+      {
+        "id": "tweet_100949",
+        "user": "user_223",
+        "text": "Youth and allies coming together for acceptance and hope! #nationalcomingoutday Incredible courage!",
+        "timestamp": "2012-10-11 10:45:21",
+        "retweet_count": 7,
+        "follower_count": 251,
+        "lexrank_score": 0.0852
+      },
+      {
+        "id": "tweet_100920",
+        "user": "user_268",
+        "text": "Proud to stand with the lgbt community for human rights and equality! #nationalcomingoutday #BreakingNews Incredible courage!",
+        "timestamp": "2012-10-11 11:43:57",
+        "retweet_count": 5,
+        "follower_count": 332,
+        "lexrank_score": 0.0759
+      },
+      {
+        "id": "tweet_100795",
+        "user": "user_47",
+        "text": "Everyone deserves dignity, acceptance, and civil rights. Happy #nationalcomingoutday to all! Incredible courage!",
+        "timestamp": "2012-10-11 15:59:55",
+        "retweet_count": 6,
+        "follower_count": 279,
+        "lexrank_score": 0.075
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "cluster_id": "cluster_8_debate",
+    "event_title": "Debate & Vp Debate",
+    "input_tweets": "100001-100647",
+    "extracted_keywords": [
+      "Debate",
+      "Vp Debate"
+    ],
+    "related_hashtags": [
+      "#VpDebate",
+      "#BreakingNews",
+      "#Oct12Debate"
+    ],
+    "event_summary": "Watch the full vice presidential debate live stream right now! VpDebate. Martha Raddatz is pressing hard on middle east foreign policy and libya. VpDebate BreakingNews.",
+    "top_segments": [
+      "debate",
+      "vp debate",
+      "vp"
+    ],
+    "newsworthiness_mu": 0.2987,
+    "tweet_count": 298,
+    "summary_tweets": [
+      {
+        "id": "tweet_100380",
+        "user": "user_351",
+        "text": "Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate Agree or disagree?",
+        "timestamp": "2012-10-12 06:37:00",
+        "retweet_count": 12,
+        "follower_count": 341,
+        "lexrank_score": 0.0434
+      },
+      {
+        "id": "tweet_100520",
+        "user": "user_279",
+        "text": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Agree or disagree?",
+        "timestamp": "2012-10-12 00:33:02",
+        "retweet_count": 14,
+        "follower_count": 484,
+        "lexrank_score": 0.0399
+      },
+      {
+        "id": "tweet_100515",
+        "user": "user_170",
+        "text": "Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate Agree or disagree?",
+        "timestamp": "2012-10-12 00:31:29",
+        "retweet_count": 8,
+        "follower_count": 2193,
+        "lexrank_score": 0.0399
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "cluster_id": "cluster_9_oct",
+    "event_title": "Oct & Foreign Policy",
+    "input_tweets": "100004-100647",
+    "extracted_keywords": [
+      "Oct",
+      "Foreign Policy",
+      "Kentucky"
+    ],
+    "related_hashtags": [
+      "#VpDebate",
+      "#BreakingNews",
+      "#Oct12Debate"
+    ],
+    "event_summary": "Martha Raddatz is pressing hard on middle east foreign policy and libya. VpDebate BreakingNews. Unbelievable clash over foreign policy and middle east strategy in tonight's debate! Oct12Debate VpDebate Thoughts.",
+    "top_segments": [
+      "oct",
+      "foreign policy",
+      "kentucky"
+    ],
+    "newsworthiness_mu": 0.1664,
+    "tweet_count": 174,
+    "summary_tweets": [
+      {
+        "id": "tweet_100528",
+        "user": "user_120",
+        "text": "The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews Agree or disagree?",
+        "timestamp": "2012-10-12 10:47:27",
+        "retweet_count": 9,
+        "follower_count": 330,
+        "lexrank_score": 0.0472
+      },
+      {
+        "id": "tweet_100380",
+        "user": "user_351",
+        "text": "Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate Agree or disagree?",
+        "timestamp": "2012-10-12 06:37:00",
+        "retweet_count": 12,
+        "follower_count": 341,
+        "lexrank_score": 0.0436
+      },
+      {
+        "id": "tweet_100592",
+        "user": "user_286",
+        "text": "Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews Agree or disagree?",
+        "timestamp": "2012-10-12 02:17:43",
+        "retweet_count": 26,
+        "follower_count": 879,
+        "lexrank_score": 0.0397
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "cluster_id": "cluster_10_paul_ryan",
+    "event_title": "Paul Ryan & Joe Biden",
+    "input_tweets": "100001-100647",
+    "extracted_keywords": [
+      "Paul Ryan",
+      "Joe Biden",
+      "Economy",
+      "Intense",
+      "Jobs Report"
+    ],
+    "related_hashtags": [
+      "#VpDebate",
+      "#Oct12Debate",
+      "#BreakingNews"
+    ],
+    "event_summary": "brings energetic defense on middle east diplomacy and jobs report. VpDebate Thoughts. Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. Oct12Debate.",
+    "top_segments": [
+      "paul ryan",
+      "joe biden",
+      "economy",
+      "intense",
+      "jobs report",
+      "exchange"
+    ],
+    "newsworthiness_mu": 0.3911,
+    "tweet_count": 138,
+    "summary_tweets": [
+      {
+        "id": "tweet_100501",
+        "user": "user_144",
+        "text": "Intense exchange on the jobs report and economy tonight between Joe Biden and Paul Ryan. #VpDebate Must watch.",
+        "timestamp": "2012-10-12 05:45:51",
+        "retweet_count": 40,
+        "follower_count": 510,
+        "lexrank_score": 0.0663
+      },
+      {
+        "id": "tweet_100323",
+        "user": "user_153",
+        "text": "Vice presidential debate replay: key moments between Joe Biden and Paul Ryan on middle east. #Oct12Debate Must watch.",
+        "timestamp": "2012-10-12 03:07:41",
+        "retweet_count": 18,
+        "follower_count": 487,
+        "lexrank_score": 0.0646
+      },
+      {
+        "id": "tweet_100208",
+        "user": "user_337",
+        "text": "@joebiden brings energetic defense on middle east diplomacy and jobs report. #VpDebate So intense!",
+        "timestamp": "2012-10-12 04:45:56",
+        "retweet_count": 11,
+        "follower_count": 463,
+        "lexrank_score": 0.0483
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "cluster_id": "cluster_11_clash",
+    "event_title": "Clash & Medicare",
+    "input_tweets": "100004-100646",
+    "extracted_keywords": [
+      "Clash",
+      "Medicare"
+    ],
+    "related_hashtags": [
+      "#Oct12Debate",
+      "#VpDebate"
+    ],
+    "event_summary": "Unbelievable clash over foreign policy and middle east strategy in tonight's debate! Oct12Debate VpDebate Thoughts. Unbelievable clash over foreign policy and middle east strategy in tonight's debate! Oct12Debate VpDebate.",
+    "top_segments": [
+      "clash",
+      "medicare"
+    ],
+    "newsworthiness_mu": 0.1061,
+    "tweet_count": 78,
+    "summary_tweets": [
+      {
+        "id": "tweet_100234",
+        "user": "user_397",
+        "text": "Unbelievable clash over foreign policy and middle east strategy in tonight's debate! #Oct12Debate #VpDebate",
+        "timestamp": "2012-10-12 06:17:29",
+        "retweet_count": 10,
+        "follower_count": 398,
+        "lexrank_score": 0.0847
+      },
+      {
+        "id": "tweet_100255",
+        "user": "user_316",
+        "text": "Watching @joebiden and @paulryan clash over foreign policy and medicare in Kentucky! #VpDebate #Oct12Debate http://t.co/deb891",
+        "timestamp": "2012-10-12 01:14:06",
+        "retweet_count": 8,
+        "follower_count": 356,
+        "lexrank_score": 0.0808
+      },
+      {
+        "id": "tweet_100470",
+        "user": "user_180",
+        "text": "Analysis of the vice presidential debate: clash over medicare and budget deficit. #VpDebate Must watch.",
+        "timestamp": "2012-10-12 05:40:17",
+        "retweet_count": 12,
+        "follower_count": 356,
+        "lexrank_score": 0.0691
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "cluster_id": "cluster_12_news",
+    "event_title": "News & Breaking News",
+    "input_tweets": "100022-101099",
+    "extracted_keywords": [
+      "News",
+      "Breaking News",
+      "Breaking"
+    ],
+    "related_hashtags": [
+      "#VpDebate",
+      "#BreakingNews"
+    ],
+    "event_summary": "Martha Raddatz is pressing hard on middle east foreign policy and libya. VpDebate BreakingNews. Martha Raddatz is pressing hard on middle east foreign policy and libya. VpDebate BreakingNews Thoughts.",
+    "top_segments": [
+      "news",
+      "breaking news",
+      "breaking"
+    ],
+    "newsworthiness_mu": 0.2179,
+    "tweet_count": 62,
+    "summary_tweets": [
+      {
+        "id": "tweet_100090",
+        "user": "user_371",
+        "text": "Martha Raddatz is pressing hard on middle east foreign policy and libya. #VpDebate #BreakingNews",
+        "timestamp": "2012-10-12 11:54:17",
+        "retweet_count": 13,
+        "follower_count": 1858,
+        "lexrank_score": 0.1196
+      },
+      {
+        "id": "tweet_100040",
+        "user": "user_30",
+        "text": "The vice presidential debate in Danville Kentucky is heating up on foreign policy and taxes! #VpDebate #BreakingNews",
+        "timestamp": "2012-10-12 03:38:04",
+        "retweet_count": 8,
+        "follower_count": 478,
+        "lexrank_score": 0.1062
+      },
+      {
+        "id": "tweet_101092",
+        "user": "user_353",
+        "text": "Felix Baumgartner preparing for the historic supersonic space jump with Red Bull Stratos! #BreakingNews",
+        "timestamp": "2012-10-12 10:54:22",
+        "retweet_count": 2,
+        "follower_count": 671,
+        "lexrank_score": 0.0164
+      }
+    ]
+  }
+]

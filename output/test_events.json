@@ -1,0 +1,351 @@
+[
+  {
+    "index": 1,
+    "cluster_id": "cluster_1",
+    "event_title": "Day Election Day",
+    "input_tweets": "100015-101996",
+    "extracted_keywords": [
+      "Day",
+      "Election Day",
+      "Election",
+      "Polls"
+    ],
+    "related_hashtags": [
+      "#ElectionDay",
+      "#Polls",
+      "#YouthVote",
+      "#Democracy"
+    ],
+    "event_summary": "Election monitors report peaceful voting and smooth ballot counting ElectionDay Polls. Young voters mobilize at polling stations nationwide YouthVote ElectionDay Democracy.",
+    "top_segments": [
+      "day",
+      "election day",
+      "election",
+      "polls"
+    ],
+    "newsworthiness_mu": 0.1578,
+    "tweet_count": 235,
+    "summary_tweets": [
+      {
+        "id": "tweet_101085",
+        "user": "user_129",
+        "text": "VOTERS HEAD TO THE POLLS IN A CLOSELY WATCHED ELECTION #ElectionDay #Democracy @ElectionMonitor",
+        "timestamp": "2026-10-29 13:01:12",
+        "retweet_count": 13,
+        "follower_count": 2057,
+        "lexrank_score": 0.423
+      },
+      {
+        "id": "tweet_100536",
+        "user": "user_99",
+        "text": "Polls remain open as citizens cast ballots in national election #Democracy #ElectionDay",
+        "timestamp": "2026-10-29 06:25:55",
+        "retweet_count": 1,
+        "follower_count": 1257,
+        "lexrank_score": 0.2452
+      },
+      {
+        "id": "tweet_101354",
+        "user": "user_45",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 16:14:52",
+        "retweet_count": 10,
+        "follower_count": 650,
+        "lexrank_score": 0.2013
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "cluster_id": "cluster_2",
+    "event_title": "Climate Summit",
+    "input_tweets": "100012-101977",
+    "extracted_keywords": [
+      "Climate",
+      "Summit",
+      "Talks",
+      "Global"
+    ],
+    "related_hashtags": [
+      "#GlobalSummit",
+      "#ClimateAction",
+      "#ClimateTalks",
+      "#Sustainability"
+    ],
+    "event_summary": "Crucial discussions on emissions and carbon reduction underway GlobalSummit ClimateAction. New climate targets announced at global summit by world leaders ClimateTalks Sustainability.",
+    "top_segments": [
+      "climate",
+      "summit",
+      "talks",
+      "global"
+    ],
+    "newsworthiness_mu": 0.167,
+    "tweet_count": 200,
+    "summary_tweets": [
+      {
+        "id": "tweet_100698",
+        "user": "user_17",
+        "text": "New climate targets announced at global summit by world leaders #ClimateTalks #Sustainability",
+        "timestamp": "2026-10-29 08:22:33",
+        "retweet_count": 4,
+        "follower_count": 966,
+        "lexrank_score": 0.359
+      },
+      {
+        "id": "tweet_100817",
+        "user": "user_119",
+        "text": "GLOBAL LEADERS MEET FOR CLIMATE TALKS #ClimateTalks #GlobalSummit @WorldBriefing",
+        "timestamp": "2026-10-29 09:48:14",
+        "retweet_count": 5,
+        "follower_count": 1381,
+        "lexrank_score": 0.2901
+      },
+      {
+        "id": "tweet_100206",
+        "user": "user_7",
+        "text": "Renewable energy commitments take center stage at climate talks #ClimateTalks #Renewables",
+        "timestamp": "2026-10-29 02:28:19",
+        "retweet_count": 4,
+        "follower_count": 228,
+        "lexrank_score": 0.1995
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "cluster_id": "cluster_3",
+    "event_title": "India vs Australia Cricket Match",
+    "input_tweets": "100001-101998",
+    "extracted_keywords": [
+      "India",
+      "Australia",
+      "Kohli",
+      "victory",
+      "match"
+    ],
+    "related_hashtags": [
+      "#INDvsAUS",
+      "#Cricket",
+      "#IndiaWins"
+    ],
+    "event_summary": "India defeated Australia in an exciting cricket match, with Virat Kohli scoring a century. Fans celebrated the victory.",
+    "top_segments": [
+      "cricket",
+      "last",
+      "fans",
+      "thriller",
+      "victory",
+      "finish"
+    ],
+    "newsworthiness_mu": 0.0723,
+    "tweet_count": 400,
+    "summary_tweets": [
+      {
+        "id": "tweet_100758",
+        "user": "user_227",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 09:05:45",
+        "retweet_count": 5,
+        "follower_count": 2048,
+        "lexrank_score": 0.1786
+      },
+      {
+        "id": "tweet_101466",
+        "user": "user_231",
+        "text": "A LAST-OVER THRILLER HAS FANS ON THE EDGE OF THEIR SEATS #Cricket #LastOver @CricketCentral",
+        "timestamp": "2026-10-29 17:35:31",
+        "retweet_count": 10,
+        "follower_count": 89,
+        "lexrank_score": 0.1477
+      },
+      {
+        "id": "tweet_101136",
+        "user": "user_36",
+        "text": "THE FINAL CIRCLE DELIVERS A WILD ESPORTS FINISH #Esports #FinalCircle @EsportsArena",
+        "timestamp": "2026-10-29 13:37:55",
+        "retweet_count": 9,
+        "follower_count": 666,
+        "lexrank_score": 0.1116
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "cluster_id": "cluster_4",
+    "event_title": "Tech Robotics",
+    "input_tweets": "100002-101997",
+    "extracted_keywords": [
+      "Tech",
+      "Robotics",
+      "Meme",
+      "New",
+      "Viral"
+    ],
+    "related_hashtags": [
+      "#STEM",
+      "#RoboticsChallenge",
+      "#StudentProjects",
+      "#TechFair"
+    ],
+    "event_summary": "STEM students demonstrate automated navigation robot to judges STEM RoboticsChallenge. Young inventors display futuristic robotics prototypes at science expo StudentProjects TechFair.",
+    "top_segments": [
+      "tech",
+      "robotics",
+      "meme",
+      "ai",
+      "new",
+      "viral",
+      "students",
+      "innovation",
+      "tasks",
+      "demonstrate",
+      "challenge"
+    ],
+    "newsworthiness_mu": 0.0618,
+    "tweet_count": 669,
+    "summary_tweets": [
+      {
+        "id": "tweet_100696",
+        "user": "sports_wire",
+        "text": "STEM students demonstrate automated navigation robot to judges #STEM #RoboticsChallenge",
+        "timestamp": "2026-10-29 08:21:07",
+        "retweet_count": 0,
+        "follower_count": 2326,
+        "lexrank_score": 0.2052
+      },
+      {
+        "id": "tweet_101508",
+        "user": "user_245",
+        "text": "Young inventors display futuristic robotics prototypes at science expo #StudentProjects #TechFair",
+        "timestamp": "2026-10-29 18:05:45",
+        "retweet_count": 3,
+        "follower_count": 1957,
+        "lexrank_score": 0.107
+      },
+      {
+        "id": "tweet_100171",
+        "user": "user_196",
+        "text": "University students collaborate on assistive robotics invention #Robotics #Innovation",
+        "timestamp": "2026-10-29 02:03:07",
+        "retweet_count": 9,
+        "follower_count": 960,
+        "lexrank_score": 0.107
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "cluster_id": "cluster_5",
+    "event_title": "India vs Australia Cricket Match",
+    "input_tweets": "100001-101998",
+    "extracted_keywords": [
+      "India",
+      "Australia",
+      "Kohli",
+      "victory",
+      "match"
+    ],
+    "related_hashtags": [
+      "#INDvsAUS",
+      "#Cricket",
+      "#IndiaWins"
+    ],
+    "event_summary": "India defeated Australia in an exciting cricket match, with Virat Kohli scoring a century. Fans celebrated the victory.",
+    "top_segments": [
+      "football",
+      "final",
+      "stadium",
+      "championship",
+      "match",
+      "winner",
+      "champions"
+    ],
+    "newsworthiness_mu": 0.0665,
+    "tweet_count": 360,
+    "summary_tweets": [
+      {
+        "id": "tweet_100784",
+        "user": "user_154",
+        "text": "The stadium erupts as the final whistle blows on championship night #Football #Champions",
+        "timestamp": "2026-10-29 09:24:28",
+        "retweet_count": 9,
+        "follower_count": 1303,
+        "lexrank_score": 0.1806
+      },
+      {
+        "id": "tweet_100758",
+        "user": "user_227",
+        "text": "Fans celebrate stunning stadium victory in the league championship #Football #MatchDay",
+        "timestamp": "2026-10-29 09:05:45",
+        "retweet_count": 5,
+        "follower_count": 2048,
+        "lexrank_score": 0.1689
+      },
+      {
+        "id": "tweet_100246",
+        "user": "user_194",
+        "text": "WHAT A COMEBACK! THE FINAL MINUTES CHANGED EVERYTHING #Football #LastMinuteWinner @MatchDayBuzz",
+        "timestamp": "2026-10-29 02:57:07",
+        "retweet_count": 10,
+        "follower_count": 2479,
+        "lexrank_score": 0.1561
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "cluster_id": "cluster_6",
+    "event_title": "Esports Gaming",
+    "input_tweets": "100000-101998",
+    "extracted_keywords": [
+      "Esports",
+      "Gaming",
+      "Record",
+      "World"
+    ],
+    "related_hashtags": [
+      "#Esports",
+      "#GamingChampionship",
+      "#ProGaming",
+      "#EsportsWinners"
+    ],
+    "event_summary": "Championship match decided in heart-stopping overtime round Esports GamingChampionship. Top esports team lifts trophy after undefeated tournament run ProGaming EsportsWinners.",
+    "top_segments": [
+      "esports",
+      "gaming",
+      "record",
+      "world"
+    ],
+    "newsworthiness_mu": 0.043,
+    "tweet_count": 320,
+    "summary_tweets": [
+      {
+        "id": "tweet_101695",
+        "user": "user_31",
+        "text": "Championship match decided in heart-stopping overtime round #Esports #GamingChampionship",
+        "timestamp": "2026-10-29 20:20:24",
+        "retweet_count": 15,
+        "follower_count": 2347,
+        "lexrank_score": 0.125
+      },
+      {
+        "id": "tweet_100720",
+        "user": "user_211",
+        "text": "Top esports team lifts trophy after undefeated tournament run #ProGaming #EsportsWinners",
+        "timestamp": "2026-10-29 08:38:24",
+        "retweet_count": 8,
+        "follower_count": 1518,
+        "lexrank_score": 0.125
+      },
+      {
+        "id": "tweet_100778",
+        "user": "user_94",
+        "text": "High-octane trailer surpasses millions of views in record time #TrailerDrop #Cinema",
+        "timestamp": "2026-10-29 09:20:09",
+        "retweet_count": 4,
+        "follower_count": 679,
+        "lexrank_score": 0.125
+      }
+    ]
+  }
+]
