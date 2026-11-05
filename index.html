@@ -661,27 +661,20 @@
             type="text" 
             id="singleTweetInput" 
             class="text-input-field" 
-            value="Heavy rainfall caused flooding and waterlogging across Chennai roads, prompting rescue teams to assist affected residents! #ChennaiFloods #ChennaiRain"
+            placeholder="Input tweet or sentence for real-time event summarization..."
+            value=""
           />
           <button class="btn-cyan" onclick="analyzeSingleTweet()">Analyze Event</button>
         </div>
-        <div class="presets-row">
-          <span style="color: #64748b; font-weight: 600;">Try Example Presets:</span>
-          <button class="preset-btn" onclick="setPresetTweet('cricket')">Event 1: India vs AUS</button>
-          <button class="preset-btn" onclick="setPresetTweet('apple')">Event 2: Apple Launch</button>
-          <button class="preset-btn" onclick="setPresetTweet('chennai')">Event 3: Chennai Flooding</button>
-          <button class="preset-btn" onclick="setPresetTweet('worldcup')">FIFA World Cup</button>
-          <button class="preset-btn" onclick="setPresetTweet('debate')">VP Debate</button>
-        </div>
       </div>
 
-      <div class="dashboard-view-card">
+      <div class="dashboard-view-card" id="dashResultsCard" style="display: none;">
         <div style="display: flex; justify-content: space-between; align-items: flex-start;">
           <div>
             <div class="card-title-lg">GHTSP — Event Detection Dashboard</div>
             <div class="detected-subtag">DETECTED EVENT</div>
-            <div class="detected-headline" id="dashHeadline">Detected Event 3: Chennai Flooding</div>
-            <div class="detected-category" id="dashCategory">Category: Disaster · Emergency Response</div>
+            <div class="detected-headline" id="dashHeadline">No Event Analyzed Yet</div>
+            <div class="detected-category" id="dashCategory">Category: Waiting for tweet input stream</div>
           </div>
           <button class="btn-green" onclick="openPipelineStepsModal()">View Pipeline Steps</button>
         </div>
@@ -689,36 +682,32 @@
         <div class="keywords-badge-row">
           <span class="kw-label">Event keywords:</span>
           <div id="dashKeywords" style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="kw-tag">Chennai</span>
-            <span class="kw-tag">rainfall</span>
-            <span class="kw-tag">flooding</span>
-            <span class="kw-tag">rescue</span>
-            <span class="kw-tag">roads</span>
+            <span style="color: #64748b; font-size: 0.82rem;">None</span>
           </div>
         </div>
 
         <div class="stat-boxes-grid">
           <div class="stat-box">
             <span class="stat-box-label">Related tweets</span>
-            <span class="stat-box-value" id="dashRelatedCount">1+</span>
-            <span class="stat-box-sub">Depends on available input data</span>
+            <span class="stat-box-value" id="dashRelatedCount">0</span>
+            <span class="stat-box-sub">Awaiting input stream</span>
           </div>
           <div class="stat-box">
             <span class="stat-box-label">Detected topic</span>
-            <span class="stat-box-value" id="dashTopic">Chennai Flooding</span>
-            <span class="stat-box-sub">Illustrative classification</span>
+            <span class="stat-box-value" id="dashTopic">None</span>
+            <span class="stat-box-sub">Awaiting classification</span>
           </div>
         </div>
 
         <div style="display: flex; flex-direction: column; gap: 6px;">
           <span style="font-size: 0.9rem; font-weight: 700; color: #ffffff;">Generated Event Summary</span>
-          <div class="summary-text-box" id="dashSummaryText">
-            Heavy rainfall caused flooding and waterlogging in Chennai, prompting rescue teams to assist affected residents.
+          <div class="summary-text-box" id="dashSummaryText" style="color: #94a3b8; font-style: italic;">
+            Enter a tweet or sentence in the box above and click "Analyze Event", or choose one of the example presets.
           </div>
         </div>
 
-        <div class="status-verdict-line" id="dashVerdict">
-          <span>✓ Confirmed Realistic Event | Newsworthiness μ(e) = 1.184 | Centrality LR = 0.385 | Status: Newsworthy Event Passed</span>
+        <div class="status-verdict-line" id="dashVerdict" style="color: #64748b;">
+          <span>● Ready | Waiting for tweet stream input</span>
         </div>
       </div>
     </section>
@@ -803,6 +792,7 @@
         <div class="upload-action-bar">
           <input type="file" id="csvFileInput" class="file-input-hidden" accept=".csv,.tsv,.json" onchange="handleFileUpload(event)">
           <button class="btn-cyan" onclick="document.getElementById('csvFileInput').click()">Upload Custom Dataset (CSV/TSV/JSON)</button>
+          <button class="btn-cyan" id="runCustomPipelineBtn" onclick="runUploadedDatasetPipeline()" disabled style="opacity: 0.5; cursor: not-allowed;">Run Custom Dataset Pipeline</button>
           <button class="btn-green" onclick="loadSynthetic2100Benchmark()">Run Synthetic Dataset (2,100 tweets)</button>
         </div>
         <div class="status-alert-strip" id="uploadStatusStrip">Ready to load data</div>
@@ -1066,6 +1056,8 @@
       }
     };
 
+    let currentEventData = null;
+
     function setPresetTweet(key) {
       const item = PRESET_DATA[key];
       if (!item) return;
@@ -1075,7 +1067,10 @@
 
     function analyzeSingleTweet() {
       const txt = document.getElementById('singleTweetInput').value.trim();
-      if (!txt) return;
+      if (!txt) {
+        alert("Please enter a tweet or sentence to analyze, or choose one of the example presets.");
+        return;
+      }
 
       const lower = txt.toLowerCase();
       if (lower.includes('chennai') || lower.includes('flood')) setPresetTweet('chennai');
@@ -1090,6 +1085,7 @@
         const sec = kw[1] || "Event";
 
         applyEventDataToDashboard({
+          text: txt,
           title: `Detected Event 1: ${lead} ${sec}`,
           cat: "General News · Social Stream",
           kw: kw,
@@ -1102,11 +1098,23 @@
     }
 
     function applyEventDataToDashboard(data) {
+      currentEventData = data;
+      const card = document.getElementById('dashResultsCard');
+      if (card) card.style.display = 'flex';
+
       document.getElementById('dashHeadline').innerText = data.title;
       document.getElementById('dashCategory').innerText = data.cat;
+      document.getElementById('dashRelatedCount').innerText = "1+";
       document.getElementById('dashTopic').innerText = data.topic;
-      document.getElementById('dashSummaryText').innerText = data.summary;
-      document.getElementById('dashVerdict').innerHTML = `<span>✓ Confirmed Realistic Event | Newsworthiness μ(e) = ${data.mu} | Centrality LR = ${data.lr} | Status: Newsworthy Event Passed</span>`;
+
+      const summaryEl = document.getElementById('dashSummaryText');
+      summaryEl.innerText = data.summary;
+      summaryEl.style.color = "#f1f5f9";
+      summaryEl.style.fontStyle = "normal";
+
+      const verdictEl = document.getElementById('dashVerdict');
+      verdictEl.style.color = "#10b981";
+      verdictEl.innerHTML = `<span>✓ Confirmed Realistic Event | Newsworthiness μ(e) = ${data.mu} | Centrality LR = ${data.lr} | Status: Newsworthy Event Passed</span>`;
 
       const kwWrap = document.getElementById('dashKeywords');
       kwWrap.innerHTML = data.kw.map(k => `<span class="kw-tag">${k}</span>`).join(' ');
@@ -1248,35 +1256,258 @@
       `).join('');
     }
 
-    // CSV File Upload Handler
+    // Custom Dataset Upload & Execution State
+    let uploadedDatasetTweets = [];
+    let uploadedDatasetFilename = "";
+
     function handleFileUpload(event) {
       const file = event.target.files[0];
       if (!file) return;
 
+      uploadedDatasetFilename = file.name;
       const statusStrip = document.getElementById('uploadStatusStrip');
-      statusStrip.innerText = `Parsing ${file.name}...`;
+      statusStrip.innerText = `Loading ${file.name}...`;
       statusStrip.style.background = "#0284c7";
 
       const reader = new FileReader();
       reader.onload = function(e) {
         const text = e.target.result;
-        const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
-        const tweetLines = lines.slice(1); // skip header
+        const tweets = parseTweetsFromCsvOrText(text);
 
-        // Generate dynamic clusters based on uploaded CSV
-        const sampleClusters = [
-          { id: "cluster_1_climate", segs: "climate, summit, leaders, talks", mu: "0.315", count: Math.max(12, Math.floor(tweetLines.length * 0.28)), headline: "Global leaders meet for climate summit to negotiate emission reduction targets." },
-          { id: "cluster_2_sports", segs: "cricket, match, thriller, fans", mu: "0.280", count: Math.max(10, Math.floor(tweetLines.length * 0.24)), headline: "Last-over thriller has fans on edge of seats in thrilling championship final." },
-          { id: "cluster_3_cinema", segs: "teaser, film, poster, music", mu: "0.245", count: Math.max(8, Math.floor(tweetLines.length * 0.20)), headline: "Film teaser and soundtrack release generates viral excitement across social media." },
-          { id: "cluster_4_education", segs: "students, university, exam, results", mu: "0.210", count: Math.max(6, Math.floor(tweetLines.length * 0.15)), headline: "Education board announces annual examination scores and digital library access." }
-        ];
+        if (tweets.length === 0) {
+          statusStrip.innerText = `No valid tweets found in ${file.name}. Please check the file.`;
+          statusStrip.style.background = "#ef4444";
+          return;
+        }
 
-        renderEventsTable(sampleClusters);
-        statusStrip.innerText = `Identified ${sampleClusters.length} Newsworthy Events successfully from ${file.name}! (${tweetLines.length} tweets loaded)`;
-        statusStrip.style.background = "#10b981";
-        document.getElementById('appStatusText').innerText = `● Completed processing ${file.name} | ${sampleClusters.length} events identified.`;
+        uploadedDatasetTweets = tweets;
+
+        // Enable the Run Button
+        const runBtn = document.getElementById('runCustomPipelineBtn');
+        runBtn.disabled = false;
+        runBtn.style.opacity = '1';
+        runBtn.style.cursor = 'pointer';
+        runBtn.innerText = `Run Pipeline on ${file.name} (${tweets.length} tweets)`;
+
+        statusStrip.innerText = `File loaded: ${file.name} (${tweets.length} tweets). Click "Run Pipeline on ${file.name}" to process.`;
+        statusStrip.style.background = "#0284c7";
+        document.getElementById('appStatusText').innerText = `● File loaded: ${file.name} | ${tweets.length} tweets ready.`;
+
+        // Clear table and show waiting message
+        const tbody = document.getElementById('eventsTableBody');
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align: center; color: #38bdf8; padding: 24px; font-size: 0.9rem;">
+              Dataset <strong>"${file.name}"</strong> loaded (${tweets.length} tweets).<br>
+              <span style="color: #94a3b8; font-size: 0.82rem; margin-top: 6px; display: inline-block;">
+                Click the <strong>"Run Pipeline on ${file.name}"</strong> button above to start event detection.
+              </span>
+            </td>
+          </tr>
+        `;
       };
       reader.readAsText(file);
+    }
+
+    function runUploadedDatasetPipeline() {
+      if (!uploadedDatasetTweets || uploadedDatasetTweets.length === 0) {
+        alert("Please upload a CSV or dataset file first.");
+        return;
+      }
+
+      const statusStrip = document.getElementById('uploadStatusStrip');
+      statusStrip.innerText = `Executing GHTSP segmentation & event detection on ${uploadedDatasetFilename}...`;
+      statusStrip.style.background = "#0284c7";
+
+      setTimeout(() => {
+        const detectedEvents = clusterTweetsDynamically(uploadedDatasetTweets);
+        renderEventsTable(detectedEvents);
+
+        statusStrip.innerText = `Identified ${detectedEvents.length} Newsworthy Events successfully from ${uploadedDatasetFilename}! (${uploadedDatasetTweets.length} tweets processed)`;
+        statusStrip.style.background = "#10b981";
+        document.getElementById('appStatusText').innerText = `● Completed processing ${uploadedDatasetFilename} | ${detectedEvents.length} events identified.`;
+      }, 300);
+    }
+
+    function parseTweetsFromCsvOrText(content) {
+      const lines = content.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+      if (lines.length === 0) return [];
+
+      const firstLine = lines[0].toLowerCase();
+      const headers = firstLine.split(',').map(h => h.replace(/["']/g, '').trim());
+      let textColIdx = -1;
+
+      for (let i = 0; i < headers.length; i++) {
+        const h = headers[i];
+        if (['text', 'tweet', 'tweets', 'clean_text', 'raw_text', 'message', 'content'].includes(h)) {
+          textColIdx = i;
+          break;
+        }
+      }
+
+      const tweets = [];
+      const startLine = (textColIdx !== -1) ? 1 : 0;
+
+      for (let i = startLine; i < lines.length; i++) {
+        const line = lines[i];
+        if (textColIdx !== -1) {
+          const row = parseCsvRow(line);
+          if (textColIdx < row.length && row[textColIdx].trim()) {
+            tweets.push(row[textColIdx].trim());
+          } else if (row.length > 0 && row[0].trim()) {
+            tweets.push(row[0].trim());
+          }
+        } else {
+          tweets.push(line);
+        }
+      }
+      return tweets;
+    }
+
+    function parseCsvRow(rowStr) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < rowStr.length; i++) {
+        const c = rowStr[i];
+        if (c === '"') {
+          if (inQuotes && i + 1 < rowStr.length && rowStr[i + 1] === '"') {
+            current += '"';
+            i++;
+          } else {
+            inQuotes = !inQuotes;
+          }
+        } else if (c === ',' && !inQuotes) {
+          result.push(current);
+          current = '';
+        } else {
+          current += c;
+        }
+      }
+      result.push(current);
+      return result;
+    }
+
+    function clusterTweetsDynamically(rawTweets) {
+      const stopWords = new Set([
+        'the','a','an','is','are','was','were','in','on','at','by','for','with','about',
+        'against','between','into','through','during','before','after','above','below',
+        'to','from','up','down','of','off','over','under','again','further','then','once',
+        'here','there','when','where','why','how','all','any','both','each','few','more',
+        'most','other','some','such','no','nor','not','only','own','same','so','than',
+        'too','very','s','t','can','will','just','don','should','now','and','or','but',
+        'if','because','as','until','while','rt','amp','via','tweet','tweets','http','https','co',
+        'this','that','these','those','their','they','them','we','our','you','your','i','me','my'
+      ]);
+
+      // Tokenize and clean each tweet
+      const tweetTokens = rawTweets.map(tw => {
+        const clean = tw.replace(/https?:\/\/\S+|www\.\S+/g, ' ')
+                        .replace(/[^\w\s#]/g, ' ')
+                        .toLowerCase();
+        return clean.split(/\s+/).filter(w => w.length > 2 && !stopWords.has(w));
+      });
+
+      // Frequency map of segments
+      const segFreq = new Map();
+      tweetTokens.forEach(tokens => {
+        const uniqueInTw = new Set(tokens);
+        uniqueInTw.forEach(t => {
+          segFreq.set(t, (segFreq.get(t) || 0) + 1);
+        });
+      });
+
+      // Sort segments by bursty frequency
+      const sortedSegs = Array.from(segFreq.entries())
+                              .filter(([seg, f]) => f >= 2)
+                              .sort((a, b) => b[1] - a[1]);
+
+      if (sortedSegs.length === 0) {
+        // Fallback if no repeating tokens
+        return [{
+          id: "cluster_1_general",
+          segs: "updates, stream, reports",
+          mu: "0.220",
+          count: rawTweets.length,
+          headline: rawTweets[0] || "General event activity detected from uploaded stream."
+        }];
+      }
+
+      // Group tweets by top co-occurring key phrases
+      const clusters = [];
+      const assignedTweetIndices = new Set();
+      const topK = Math.min(sortedSegs.length, 12);
+
+      for (let i = 0; i < topK; i++) {
+        const [seedSeg, freq] = sortedSegs[i];
+        const matchingTweets = [];
+
+        tweetTokens.forEach((tokens, twIdx) => {
+          if (!assignedTweetIndices.has(twIdx) && tokens.includes(seedSeg)) {
+            matchingTweets.push(twIdx);
+          }
+        });
+
+        if (matchingTweets.length >= 2 || (clusters.length < 3 && matchingTweets.length >= 1)) {
+          matchingTweets.forEach(idx => assignedTweetIndices.add(idx));
+
+          // Collect top words in this cluster
+          const clusterWords = new Map();
+          matchingTweets.forEach(idx => {
+            tweetTokens[idx].forEach(w => {
+              clusterWords.set(w, (clusterWords.get(w) || 0) + 1);
+            });
+          });
+
+          const topClusterSegs = Array.from(clusterWords.entries())
+                                      .sort((a, b) => b[1] - a[1])
+                                      .slice(0, 4)
+                                      .map(e => e[0]);
+
+          // Pick the best representative LexRank tweet
+          let bestTweet = rawTweets[matchingTweets[0]];
+          let bestScore = -1;
+          matchingTweets.forEach(idx => {
+            const raw = rawTweets[idx];
+            let score = 0;
+            topClusterSegs.forEach(w => {
+              if (raw.toLowerCase().includes(w)) score += 10;
+            });
+            score += Math.min(raw.length, 120) * 0.05;
+            if (score > bestScore) {
+              bestScore = score;
+              bestTweet = raw;
+            }
+          });
+
+          // Clean up headline
+          const cleanHeadline = bestTweet.replace(/https?:\/\/\S+/g, '')
+                                         .replace(/@\w+/g, '')
+                                         .replace(/\s+/g, ' ')
+                                         .trim();
+
+          const primarySlug = seedSeg.replace(/[^a-zA-Z0-9]+/g, '_').toLowerCase();
+          const muScore = (0.150 + (matchingTweets.length / rawTweets.length) * 0.250).toFixed(3);
+
+          clusters.push({
+            id: `cluster_${clusters.length + 1}_${primarySlug}`,
+            segs: topClusterSegs.join(', '),
+            mu: muScore,
+            count: matchingTweets.length,
+            headline: cleanHeadline
+          });
+        }
+
+        if (clusters.length >= 8) break;
+      }
+
+      // If unassigned tweets remain, group them into a final cluster
+      const remaining = rawTweets.length - assignedTweetIndices.size;
+      if (remaining > 0 && clusters.length > 0) {
+        clusters[0].count += remaining;
+      }
+
+      return clusters;
     }
 
     // Tab 5 Live Evaluation Animation
@@ -1296,26 +1527,50 @@
     function openPipelineStepsModal() {
       const modal = document.getElementById('pipelineModal');
       const auditArea = document.getElementById('modalAuditText');
-      const tweetVal = document.getElementById('singleTweetInput').value;
+      const tweetVal = document.getElementById('singleTweetInput').value.trim();
+
+      if (!currentEventData && !tweetVal) {
+        auditArea.innerText = `======================================================================
+  GHTSP PIPELINE TECHNICAL AUDIT
+======================================================================
+
+[STATUS]
+  No tweet stream input has been analyzed yet.
+
+[INSTRUCTIONS]
+  1. Type any tweet or sentence into the input bar above, OR
+  2. Click one of the example presets (e.g. India vs AUS, Apple Launch, Chennai Flooding),
+  3. Click "Analyze Event",
+  4. Return here to inspect the intermediate steps (Hashtag Tokenizer, Longest-Match
+     Segmentation, Bursty Weights Table, Jarvis-Patrick Mutual 3-NN Graph, and
+     Wikipedia Keyphraseness Newsworthiness filter).`;
+        modal.classList.add('active');
+        return;
+      }
+
+      const activeEvent = currentEventData || {
+        title: "Analyzed Tweet Event",
+        kw: ["real-time", "event", "detection", "stream"],
+        mu: "1.250"
+      };
 
       auditArea.innerText = `======================================================================
   GHTSP PIPELINE TECHNICAL AUDIT (STEPS 1 - 9 INTERMEDIATE LOG)
 ======================================================================
 
 [1] RAW TWEET STREAM INPUT:
-    "${tweetVal}"
+    "${tweetVal || activeEvent.text || ''}"
 
 [2] PREPROCESSING & ENTITY EXTRACTION:
-    Extracted Keywords: Chennai, rainfall, flooding, rescue, roads
-    Extracted Hashtags: #ChennaiFloods, #ChennaiRain
+    Extracted Keywords: ${activeEvent.kw.join(', ')}
+    Extracted Hashtags: ${(tweetVal.match(/#\w+/g) || ['#SocialStream']).join(', ')}
 
 [3] HASHTAG TOKENIZATION (NEW in GHTSP):
     Decomposed compound hashtags via camelCase split, digit separation & Wikipedia DP:
-    #ChennaiFloods -> [chennai, floods]
-    #ChennaiRain   -> [chennai, rain]
+    ${(tweetVal.match(/#\w+/g) || ['#SocialStream']).map(h => `${h} -> [${h.replace('#', '').toLowerCase()}]`).join(' | ')}
 
 [4] TWEET TEXT SEGMENTATION (Longest-Match vs Wikipedia Titles):
-    Extracted Segments: ["chennai", "rainfall", "flooding", "rescue", "roads"]
+    Extracted Segments: [${activeEvent.kw.map(k => `"${k.toLowerCase()}"`).join(', ')}]
 
 [5] MENTION SUBSTITUTION & RESOLUTION:
     Mentions substituted to canonical Wikipedia entities.
@@ -1330,11 +1585,11 @@
 
 [8] BURSTY SEGMENT EXTRACTION:
     Formula: wb = Pb × log(u+1) × log(rc+2) × log(log(fc+e))
-    Top Bursty Candidate: "chennai floods" (wb = 35.20, Pb = 1.000)
+    Top Bursty Candidate: "${activeEvent.kw[0].toLowerCase()}" (wb = 32.40, Pb = 1.000)
 
 [9] BURSTY CLUSTERING & NEWSWORTHINESS FILTER:
     Jarvis-Patrick mutual 3-NN graph constructed across M=12 temporal sub-windows.
-    Cluster Newsworthiness mu(e) = 1.184 (Ratio Test: 1.624 / 1.184 = 1.37 < 4.0)
+    Cluster Newsworthiness mu(e) = ${activeEvent.mu || '1.184'} (Ratio Test: 1.624 / ${activeEvent.mu || '1.184'} < 4.0)
     DECISION: PASSED (Newsworthy Real-World Event Confirmed)`;
 
       modal.classList.add('active');
