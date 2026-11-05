@@ -24,3 +24,8 @@ Thumbs.db
 Desktop.ini
 ghtsp_events_*.json
 
+# Environment variables & secrets
+.env
+*.db
+
+
